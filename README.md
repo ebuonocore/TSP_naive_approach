@@ -38,7 +38,8 @@ To find the distance between two towns, we'll need to call up the OpenStreetMap 
 
 ![diagram_v1](/assets/TSP_diagram_v1.svg)
 
-To find the distance between two towns, we'll need to call up the OpenStreetMap API, which will return the GPS coordinates for each town. Then we'll use it again to calculate the distance by car between two towns.
+Constructing the list of all possible paths involves calculating all the permutations of the initial list (cities) that are private from the first term.
+Then add the initial term to the head and tail of the list.
 
 ![diagram_v2](/assets/TSP_diagram_v2.svg)
 
