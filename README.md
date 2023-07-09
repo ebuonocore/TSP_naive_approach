@@ -34,11 +34,11 @@ This is what a global schematic of the problem would look like.
 The last function will be responsible for systematically calculating the cost of each route.  
 After that, we'll just have to take this top-down approach a step further by specifying each of the sub-functions more precisely.  
 
+To find the distance between two towns, we'll need to call up the OpenStreetMap API, which will return the GPS coordinates for each town. Then we'll use it again to calculate the distance by car between two towns.
+
 ![diagram_v1](/assets/TSP_diagram_v1.svg)
 
+To find the distance between two towns, we'll need to call up the OpenStreetMap API, which will return the GPS coordinates for each town. Then we'll use it again to calculate the distance by car between two towns.
+
 ![diagram_v2](/assets/TSP_diagram_v2.svg)
-
-![diagram_v3a](/assets/TSP_diagram_v3a.svg)
-
-![diagram_v3b](/assets/TSP_diagram_v3b.svg)
 
